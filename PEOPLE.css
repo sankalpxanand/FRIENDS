@@ -1,0 +1,538 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background:linear-gradient(#0000FF,#00008B);
+}
+.heading
+{
+	background:linear-gradient(orange,yellow);
+	width: 100%;
+	height: 150px;
+}
+h1
+{
+	text-align: left;
+	margin-top: 40px;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 130px;
+	color: #0000FF;
+	font-variant: small-caps;
+}
+h1:hover
+{
+	animation-name: heading;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes heading
+{
+	from
+	{
+		transform: translateX(0px);
+	}
+	to
+	{
+		transform: translateX(2000px);
+	}
+}
+main
+{
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+	display: grid;
+	grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+	grid-template-columns: 500px 500px;
+	
+}
+.div1
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/chandler.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.cb
+{
+	margin-left: 270px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.mp
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div2
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/monica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.mg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.cc
+{
+	margin-left: 270px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div3
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/ross.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.rg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.ds
+{
+	margin-left: 230px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div4
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/rachel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.rgg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.ja
+{
+	margin-left: 250px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div5
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/joey.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.jt
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.ml
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div6
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/phoebe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.pb
+{
+	margin-left: 290px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.lk
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div7
+{
+	 background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/gunther.jpg);
+	 background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.gcp
+{
+	margin-left: 20px;
+	color: yellow;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.jtt
+{
+	margin-left: 330px;
+	color: yellow;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div8
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/janice.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.jh
+{
+	margin-left: 20px;
+	color: orange;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.mw
+{
+	margin-left: 250px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div9
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/mike.jpg);
+    background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.mh
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.pr
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div10
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/emily.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.ew
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.hb
+{
+	margin-left: 230px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div11
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/ben.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.bg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.cs
+{
+	margin-left: 270px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div12
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/emma.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.eg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.ns
+{
+	margin-left: 240px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div13
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/jack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.jg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.egg
+{
+	margin-left: 250px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div14
+{
+	 background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/judy.jpg);
+	 background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.jgg
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.cp
+{
+	margin-left: 220px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div15
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/carol.jpg);
+    background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.cw
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.jss
+{
+	margin-left: 270px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div16
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/susan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.sb
+{
+	margin-left: 20px;
+	color: yellow;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.jhh
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div17
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/richard.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.rb
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.ts
+{
+	margin-left: 270px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.div18
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/pete.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+}
+.pbb
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}
+.jf
+{
+	margin-left: 20px;
+	color: gold;
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+}

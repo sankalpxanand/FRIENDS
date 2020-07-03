@@ -1,0 +1,112 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background:linear-gradient(#FF355E,#FD0E35);
+}
+.heading
+{
+	background:linear-gradient(orange,yellow);
+	width: 100%;
+	height: 150px;
+}
+h1
+{
+	text-align: left;
+	margin-top: 40px;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 130px;
+	color: red;
+	font-variant: small-caps;
+}
+h1:hover
+{
+	animation-name: heading;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes heading
+{
+	from
+	{
+		transform: translateX(0px);
+	}
+	to
+	{
+		transform: translateX(2000px);
+	}
+}
+main
+{
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+	display: grid;
+	grid-template-rows: 500px 500px 500px 500px 500px;
+	grid-template-columns: 500px 500px;
+}
+.div1>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div2>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div3>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+
+.div4>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div5>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div6>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div7>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div8>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div9>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}
+.div10>img
+{
+	width: 500px;
+	height: 500px;
+	outline: 1px solid darkviolet;
+}

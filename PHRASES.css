@@ -1,0 +1,603 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background: linear-gradient(#FF355E,#FD0E35)
+}
+.heading
+{
+	background:linear-gradient(orange,yellow);
+	width: 100%;
+	height: 150px;
+}
+h1
+{
+	text-align: left;
+	margin-top: 40px;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 130px;
+	color: #FD0E35;
+	font-variant: small-caps;
+}
+h1:hover
+{
+	animation-name: heading;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes heading
+{
+	from
+	{
+		transform: translateX(0px);
+	}
+	to
+	{
+		transform: translateX(2000px);
+	}
+}
+main
+{
+	display: grid;
+	grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px ;
+	grid-template-columns:  620px 620px;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	
+}
+.div1
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/woopha.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div1>a
+{
+	color: black;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div2
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/iknow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.ik1
+{
+	color: darkgreen;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.ik2
+{
+	color: darkgreen;
+	margin-left: 150px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.ik3
+{
+	color: darkgreen;
+	margin-left: 330px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div3
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/pivot.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.p1
+{
+	color: burlywood;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.p2
+{
+	color: burlywood;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.p3
+{
+	color: burlywood;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.p4
+{
+	color: burlywood;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.p5
+{
+	color: burlywood;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div4
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/no.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div4>a
+{
+	color: darkred;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 77.5px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div5
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/hyd.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.hy
+{
+	color: black;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.d
+{
+	color: black;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div6
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/eyes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.o
+{
+	color: darkorange;
+	margin-left: 40px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.me1
+{
+	color: darkorange;
+	margin-left: 120px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.me2
+{
+	color: darkorange;
+	margin-left: 250px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div7
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/omg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.om
+{
+	color: darkblue;
+	margin-left: 110px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.g
+{
+	color: darkblue;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 65px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div8
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/theyknow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.t1
+{
+	color: brown;
+	margin-left: 50px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.t2
+{
+	color: brown;
+	margin-left: 100px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.t3
+{
+	color: brown;
+	margin-left: 20px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div9
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/cib.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.ci
+{
+	color: gainsboro;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.b
+{
+	color: gainsboro;
+	margin-left: 200px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.a
+{
+	color: gainsboro;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div10
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/fine.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.im
+{
+	color: blue;
+	margin-left: 20px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.f
+{
+	color: blue;
+	margin-left: 20px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div11
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/lobster.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div11>a
+{
+	color: mediumpurple;
+	margin-left: 60px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div12
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/wwb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.ww
+{
+	color: rosybrown;
+	margin-left: 150px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.oa
+{
+	color: rosybrown;
+	margin-left: 210px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.bk
+{
+	color: rosybrown;
+	margin-left: 60px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div13
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/info.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.ti
+{
+	color: skyblue;
+	margin-left: 200px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.bn
+{
+	color: skyblue;
+	margin-left: 140px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.in
+{
+	color: skyblue;
+	margin-left: 100px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+
+.div14
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/moopoint.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div14>a
+{
+	color: darkslateblue;
+	margin-left: 10px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div15
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/smelly.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div15>a
+{
+	color: maroon;
+	margin-left: 20px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div16
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/food.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.j
+{
+	color: saddlebrown;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.ds
+{
+	color: saddlebrown;
+	margin-left: 100px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.fo
+{
+	color: saddlebrown;
+	margin-left: 170px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div17
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/fart.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.st
+{
+	color: brown;
+	margin-left: 120px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.fa
+{
+	color: brown;
+	margin-left: 120px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 120px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.ac
+{
+	color: brown;
+	margin-left: 120px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}
+.div18
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/unagi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	outline: 1px solid black;
+	margin: 10px
+}
+.div18>a
+{
+	color: midnightblue;
+	margin-left: 7px;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: chalkduster;
+}

@@ -1,0 +1,286 @@
+body
+{
+	background-color: black;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+main
+{
+	display: grid;
+	grid-template-rows: 150px 420px 550px 500px 850px; 
+}
+.div1
+{
+	background-color: black; 
+	text-align: center;
+	padding-left: 90px;
+	font-size: 120px;
+	
+}
+.centralperk
+{
+	float: left;
+	padding-top: 25px;
+	margin-left: 5px;
+	width: 220px;
+	height: 90px;
+	transition: transform 1s;
+}
+.centralperk:hover
+{
+	transform: rotateY(180deg);
+}
+.logo
+{
+	width: 600px;
+	height: 80px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+}
+.logo:hover
+{
+	animation-name: logo;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes logo
+{
+	from
+	{
+		transform: translateY(0px);
+	}
+	to
+	{
+		transform: translateY(-250px);
+	}
+}
+.couch
+{
+	float: right;
+	padding-top: 30px;
+	padding-right: 80px;
+	width: 200px;
+	height: 100px;
+	transition: transform 1s;
+}
+.couch:hover
+{
+	transform: rotate(-180deg);
+}
+.div2
+{
+	background-color: black;
+	display: grid;
+	grid-template-rows: (5,10px);
+	grid-column-gap: 1px;
+	text-align: center;
+
+}
+.div2>a
+{
+	color: yellow;
+	background:linear-gradient(#00008B,#0000FF);
+	text-decoration: none;
+	font-size: 15.5px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	font-family: chalkduster;
+}
+.div2>a:hover
+{
+	/*animation-name: roll;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;*/
+	color: #00008B;
+	background: linear-gradient(#FF3333, #FF6633);
+}
+/*@keyframes roll
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+}*/
+.div3
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/about.bgimg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 15px;
+	padding: 50px;
+	font-family: "Gill Sans", sans-serif;
+}
+h3
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+p
+{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.div4
+{
+	background-color: black;
+	border-bottom: 5px solid white
+}
+video
+{
+	width: 100%;
+	height: 100%;
+}
+.div5
+{
+	background-color: black;
+	display: grid;
+	grid-template-rows: 400px 400px;
+	grid-template-columns: 480px 480px 480px;
+	margin-top: 50px;
+}
+.div5a
+{
+	/* background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s1.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+	padding-top: 250px;
+	font-size: 110px;
+}
+.div5a>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5a:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s1.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration-color:  black;
+}
+.div5b
+{
+	/*background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s2.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 200px;
+}
+.div5b>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5b:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s2.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.div5c
+{
+	/*background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s3.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	padding-top: 250px;
+	font-size: 110px;
+}
+.div5c>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5c:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s3.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.div5d
+{
+	/*background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s4.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: right;
+	padding-bottom: 100px;
+	font-size: 110px;
+}
+.div5d>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5d:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s4.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.div5e
+{
+	/*background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s5.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-bottom:  120px;
+	font-size: 200px;
+}
+.div5e>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5e:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s5.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.div5f
+{
+	/*background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s6.0.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	padding-bottom:  100px;
+	font-size: 110px;
+}
+.div5f>a
+{
+	color: white;
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+.div5f:hover
+{
+	background-image: url(/Users/sankalp/Desktop/Deskstop/CSS/FRIENDS/s6.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

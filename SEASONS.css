@@ -1,0 +1,84 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background:linear-gradient(yellow,orange);
+}
+.heading
+{
+	background:linear-gradient(#0000FF,#00008B);
+	width: 100%;
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: chalkduster;
+}
+h3
+{
+	font-size: 120px;
+	text-align: left;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: gold;
+	
+}
+h3:hover
+{
+	animation-name: heading;
+	animation-iteration-count: 1;
+	animation-duration: 1s;
+}
+@keyframes heading
+{
+	from
+	{
+		transform: translateX(0px);
+	}
+	to
+	{
+		transform: translateX(2000px);
+	}
+}
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+th
+{
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	border-right: 2px solid black;
+	border-bottom: 5px solid black;
+	color: #0000FF;
+	font-family: Georgia, serif;
+	font-variant: small-caps;
+	
+}
+td
+{
+	text-align: center;
+	padding: 10px;
+	outline: 1px solid;
+	font-family: chalkduster;
+}
+tr:hover
+{
+	background:linear-gradient(#0000FF,#00008B);
+	color: gold;
+}
+.theading:hover
+{
+	background:linear-gradient(violet,darkviolet);
+}
+th:hover
+{
+	color: gold;
+}

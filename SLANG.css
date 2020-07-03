@@ -1,0 +1,97 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background: linear-gradient(#00008B,#0000FF)
+}
+.heading
+{
+	background:linear-gradient(orange,yellow);
+	width: 100%;
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: chalkduster;
+}
+h1
+{
+	font-size: 120px;
+	text-align: left;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: #0000FF;
+	
+}
+h1:hover
+{
+	animation-name: heading;
+	animation-iteration-count: 1;
+	animation-duration: 1s;
+}
+@keyframes heading
+{
+	from
+	{
+		transform: translateX(0px);
+	}
+	to
+	{
+		transform: translateX(2000px);
+	}
+}
+main
+{
+	display: grid;
+	grid-template-rows: 700px 100px 500px; 
+	grid-row-gap: 100px;
+}
+video
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.div2
+{
+	
+}
+.div2>h3
+{
+	text-align: left;
+	background: linear-gradient(orange,yellow);
+	color: #0000FF;
+	padding-left: 50px;
+	font-family: chalkduster;
+	font-size: 60px;
+}
+.div2>p
+{
+	font-family: "Gill Sans", sans-serif;
+	font-size: 30px;
+	padding: 50px;
+	padding-top: 20px;
+	color: white;
+}
+.div3
+{
+	
+}
+.div3>h3
+{
+	text-align: left;
+	background: linear-gradient(orange,yellow);
+	color: #0000FF;
+	padding-left: 50px;
+	font-family: chalkduster;
+	font-size: 60px;
+}
+.div3>p
+{
+	font-family: "Gill Sans", sans-serif;
+	font-size: 30px;
+	padding: 50px;
+	color: white;
+}
